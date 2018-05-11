@@ -5,3 +5,4 @@
    and running: emulator -avd Nexus_5_API_24_1
    Note the emulator name can be found by command #2.
 4. this project does not use maven nor test unit framwork yet.
+5. to run UIAutomator: C:\Users\ClarencioTan\AppData\Local\Android\Sdk\tools\bin
