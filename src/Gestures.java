@@ -12,7 +12,7 @@ import io.appium.java_client.android.AndroidElement;
 
 public class Gestures {
 
-	@SuppressWarnings("deprecation")
+	
 	public static void main(String[] args) throws MalformedURLException {
 		AndroidDriver<AndroidElement> driver;
 		MobileElement elems;
@@ -23,7 +23,7 @@ public class Gestures {
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='Views']")))
 				.click();
 
-		// Tap - tapping with a webelement inside is DEPRECATED!
+		// Tap - tap(WebElement) - deprecated in 6.0.0 Beta 2
 		tp.tap(new WebDriverWait(driver, 10).until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//android.widget.TextView[@text='Expandable Lists']")))).perform();
 
@@ -39,7 +39,7 @@ public class Gestures {
 						.elementToBeClickable(By.xpath("//android.widget.TextView[@text='1. Custom Adapter']")))
 				.click();
 
-		// long press - DEPRECATED!
+		// long press & waitAction - press(WebElement) & waitAction(duration) - deprecated in 6.0.0 Beta 2
 		tp.press(new WebDriverWait(driver, 10).until(
 				ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='People Names']"))))
 				.waitAction(Duration.ofMillis(3000)).release().perform();

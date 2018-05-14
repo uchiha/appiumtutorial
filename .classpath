@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/java-client-6.0.0-BETA2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/stuffplay/client-combined-3.8.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/stuffplay/client-combined-3.8.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/stuffplay/libs/byte-buddy-1.7.5.jar"/>
@@ -14,5 +13,6 @@
 	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/stuffplay/libs/httpclient-4.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/stuffplay/libs/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/stuffplay/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ClarencioTan/Downloads/java-client-5.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
