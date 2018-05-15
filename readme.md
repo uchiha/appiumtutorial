@@ -6,3 +6,7 @@
    Note the emulator name can be found by command #2.
 4. this project does not use maven nor test unit framwork yet.
 5. to run UIAutomator: C:\Users\ClarencioTan\AppData\Local\Android\Sdk\tools\bin
+
+[15052018]
+1. to check the devices connected to machine, just run "adb devices".
+2. if #1 does not work, try out "adb kill-server" then "adb start-server"
